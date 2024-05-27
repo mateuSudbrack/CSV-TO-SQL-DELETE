@@ -11,7 +11,7 @@ This Python script generates SQL delete commands from a CSV file based on a spec
 2. Download the script (`generate_sql_delete.py`) from this repository.
 3. Run the script from the command line with the following syntax:
    ```
-   python generate_sql_delete.py input_file.csv output_file.sql column_name
+   python generate_sql_delete.py input_file.csv output_file.sql table_name column_name
    ```
    Replace `input_file.csv` with the path to your input CSV file, `output_file.sql` with the desired path for the output SQL file, and `column_name` with the name of the column containing the values to delete.
 4. The script will generate SQL delete commands for each value in the specified column of the input file and save them to the output file.
